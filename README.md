@@ -2,6 +2,8 @@
 
 De Stichting Openbare Bibliotheek Amsterdam (OBA) is een culturele instelling, die zich ten doel stelt het vrije verkeer van informatie in de Amsterdamse samenleving te bevorderen. In dit project is er een redesign van het Mijn OBA platform gerealiseerd.
 
+![image](https://user-images.githubusercontent.com/112856292/205169064-10497546-825a-4bd2-8883-e5f59c797d6a.png)
+
 ## User story #12
 > Als OBA lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen.
 
