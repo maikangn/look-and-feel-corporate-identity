@@ -1,0 +1,452 @@
+@import url(//db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir+Black);
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5em;
+    background-color: #ffffff;
+  }
+  
+  
+  h1 {
+    font-family: "Avenir Black";
+    color: #000000;
+    margin-bottom: 25px; /*ruimte onder h1*/
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
+  }
+  
+  h2{
+    padding-top: 2%;
+    padding-left: 33%;
+    text-align: left;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  h5 {
+    font-size: 13px;
+  }
+
+  p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  hr{
+    margin: 10px;
+  }
+  
+  .wrapper {
+    width: 100%;
+    text-align: center; /* center hack */
+  }
+  
+  .container {
+    width: 95%;
+    max-width: 1200px;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto; /* center hack */
+    padding: 20px;
+    border: 1px solid #dddddd;
+  }
+  
+  .header {
+    overflow:auto;
+    float:left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    padding: 20px;
+  }
+  
+  .header img {
+    width: 165px;
+    height: auto;
+    float: left;
+
+  }
+
+
+  /*------------header rechts*/
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 0 10px;
+    margin: 15px 0 0 0;
+    text-decoration: none;
+    font-size: 15px; 
+    line-height: 20px;
+    font-weight: bold;
+    border-right: 1px rgb(150, 150, 150) solid; /*vertical line in nav bar*/
+  }
+  
+  .header a:last-child {
+    border-right: none;
+  }
+
+  .header a:hover {
+   background-color: #fff;
+    color: #ff0000;
+  }
+  
+  .header a.active {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+  }
+
+  .header-right {
+    float: right;
+  }
+  /*-----------header rechts*/
+
+
+  .main { /*content*/
+    word-wrap: break-word;
+    background-color: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+
+  }
+  
+  .two-column {
+    float: none;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  .side-a { /*sidebar*/
+    float: left;
+    position: relative;
+    width: 300px;
+    word-wrap: break-word;
+    /*border: 1px solid #dddddd;*/
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 20px 0 0 0;
+    padding: 20px;
+  }
+  
+  .main-menu ul {
+    list-style: none; /*opsommingspunten weg*/
+  }
+  
+  .main-menu li {
+    margin-bottom: 10px; /* witruimte tussen lijst*/
+  }
+  
+  .main-menu li:last-child { /*laatste verticale streep weg*/
+    margin-bottom: 0;
+  }
+  
+  .main-menu a:link,
+  .main-menu a:visited {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(200, 200, 200);
+    padding: 6px 10px;
+  }
+  
+  .main-menu a:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+  }
+
+  .main-menu a.active { /*Sidebar red active persoonlijke boekentips pagina*/
+    background-color: #d9311b;
+    color: rgb(255, 255, 255)
+  }
+
+  /*boek content*/
+
+  .content {
+    position: relative;
+    width: 850px;
+    margin: 15px auto;
+    background: #ffffff;
+  }
+  
+  .bookContainer {
+    vertical-align: top;
+    display: inline-block;
+    background: #ffffff;
+    width: 670px;
+    border-radius: 2px;
+    text-align: center;
+    margin: 10px 0 10px 50px;
+    padding: 7px;
+  }
+  
+  .bookContainer:hover {
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+  }
+  
+  .bookContainer a {
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 60px;
+    height: 30px;
+    color: #000000;
+  }
+  
+  .bookImage {
+    float: left;
+    width: 171px;
+    height: 256px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 4px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 10px 10px 15px 18px; /*ruimte onder boek*/
+  }
+  
+  #img01 {
+    background-image: url('../assets/atomic-habits.png');
+  }
+  
+  #img02 {
+    background-image: url('../assets/it-ends-with-us.png');
+  }
+  
+  #img03 {
+    background-image: url('../assets/dat-stemmetje-in-je-hoofd.png');
+  }
+  
+  #img04 {
+    background-image: url('../assets/de-alchemist.png');
+  }
+  
+  #img05 {
+    background-image: url('../assets/the-power-of-now.png');
+  }
+  
+  #img06 {
+    background-image: url('../assets/daar-waar-de-rivierkreeften-zingen.png');
+  }
+
+  #img07 {
+    background-image: url('../assets/subtle-art-of-not-giving-a-fk.png');
+  }
+
+  #img08 {
+    background-image: url('../assets/fairy-tale.png');
+  }
+
+  #img09 {
+    background-image: url('../assets/to-kill-a-mockingbird.png');
+  }
+  
+  .checked{
+color:red;
+  }
+
+  .leeslijst{
+float: right;
+font-family: 'Avenir';
+font-size: 12.5px;
+margin: 10px 35px 5px;
+background-color: #000000;
+color: #fff;
+width: 250px;
+height: 35px;
+border: 0;
+letter-spacing: 0.7px;
+text-transform: uppercase;
+  }
+
+  .leeslijst:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .bookTitle {
+    margin: 10px;
+    padding-left: 32%;
+    text-align: left;
+  }
+  
+  .bookRating {
+    margin-top: 20px;
+    color: #949494;
+    padding: 5px;
+    letter-spacing: 0.1em;
+  }
+
+.bookImage:hover{
+  transform: scale(1.02);
+  transition: transform .4s;
+  filter: drop-shadow(4px 4px 6px rgb(75, 75, 75));
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #000000;
+}
+.footer .col {
+  width: 270px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col p {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 21px;
+  line-height: 1.5rem;
+  padding: 20px 0px 5px 0px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.222em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li a {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: inherit;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+
+.footer .col ul li a:hover {
+  color: #ff0000;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+
+.footer, a, a:visited {
+  color: rgb(0, 0, 0);
+}
+.clearfix {
+  clear: both;
+}
+
+  /* media queries */
+  @media only screen and (max-width: 767px) {
+    .container {
+      width: 100%;
+      max-width: 767px;
+    }
+
+    .bookContainer {
+      vertical-align: top;
+      display: grid;
+      width: 330px;
+      border-radius: 3px;
+      text-align: center;
+      margin: 10px 0px 10px 0px;
+      padding: 15px 0px 0px ;
+    }
+    
+    .bookTitle, h2 {
+      padding-left: 10%;
+      padding-right: 10px;
+      text-align: center;
+    }
+
+    .bookImage {
+      width: 171px;
+      height: 256px;
+      border: 1px solid rgb(179, 179, 179);
+      border-radius: 4px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin: 10px 10px 20px 60px; /*ruimte onder boek*/
+    }
+
+    .side-a {
+      float: none;
+      position: static;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col p {
+        font-size: 14px;
+      }
+      .footer .col ul li a {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+  }
