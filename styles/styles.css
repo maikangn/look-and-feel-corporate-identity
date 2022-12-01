@@ -64,7 +64,7 @@
   
   .container {
     width: 95%;
-    max-width: 1200px;
+    max-width: 1100px;
     text-align: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -342,7 +342,7 @@ text-transform: uppercase;
   background-color: #000000;
 }
 .footer .col {
-  width: 270px;
+  width: 250px;
   height: auto;
   float: left;
   box-sizing: border-box;
