@@ -1,4 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/b78d933f8aa6b9284c1d3efd3db0a9b9?family=Avenir+Black);
+@font-face {
+  font-family: AvenirBlack;
+  src: url(../font/Avenir\ -black.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +17,8 @@
     background-color: #ffffff;
   }
   
-  
   h1 {
-    font-family: "Avenir Black";
+    font-family: AvenirBlack, 'Avenir', "Arial";
     color: #000000;
     margin-bottom: 25px; /*ruimte onder h1*/
     padding: 5px;
