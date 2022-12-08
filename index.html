@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mijn OBA | Persoonlijke boekentips</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="script.js"></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
   </head>
   <body>
+   
     <main>
        
 
@@ -79,7 +81,7 @@
                       en hoe je meester kan worden van kleine veranderingen in je gedrag die tot spectaculaire resultaten kunnen leiden.
                     </p>
 
-                    <button class="leeslijst" type="button">
+                    <button onclick="myFunction()" class="leeslijst" type="button">
                       Voeg toe aan mijn leeslijst</button>
                     <div class="bookRating">
                       <span class="fa fa-star checked"></span>
@@ -87,6 +89,19 @@
                       <span class="fa fa-star checked"></span>
                       <span class="fa fa-star checked"></span>
                       <span class="fa fa-star"></div>
+
+              <div id="activiteit">
+               <h3>Activiteiten en/of cursussen die u wellicht ook interessant vindt</h3><br>
+               <img src="assets/intuitie.png" alt="" class="intuitie-img">
+               <h4><i class="fa fa-graduation-cap" aria-hidden="true" style="font-size:18px";></i> Cursus: Je intuïtie als raadgever</h4>
+               <p>Kent u dat? U hebt zo'n gevoel dat er iets niet klopt. 
+                U luistert er niet naar en achteraf kunt u uwzelf wel op de kop slaan. 
+                 Door uw intuïtie te ontwikkelen neemt u beslissingen die voor u kloppen en ontstaat er meer
+                 ruimte voor u en hoe u wilt leven. 
+                 <button class="button-detail">Bekijk details <i class="fa fa-caret-right" style="font-size:15px; margin-left: 3px"></i></button>
+                </p>
+               </div>
+
                   </div>
                   <hr color="#bebebe">
                   <div class="bookContainer" id="book02">
@@ -280,8 +295,6 @@
             
             </div><!-- /container -->
           </div><!-- /wrapper -->
-
-
 
     </main>
   </body>
